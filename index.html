@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Lista de Produtos</title>
 </head>
+
 <body>
-	
+	<form id="taskForm" action="">
+		Produto: <input type="text" id="produto"><br /><br />
+		Categoria: <input type="text" id="produto"><br /><br />
+		Quantidade: <input type="text" id="produto"><br /><br />
+		<button type="button" id="inserir">Inserir</button>
+		<button type="button" id="ordenarCategoria">Ordenar por Categoria</button>
+		<div id="mensagemErro"></div>
+	</form>
+	<div>
+		<h3>Lista de Compras</h3>
+		<ul id="listaProdutos"></ul>
+	</div>
 </body>
+
 </html>
