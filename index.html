@@ -8,22 +8,35 @@
 </head>
 <body>
     <div id="conteiner">
-        <form id="taskForm" action="">
-            Produto: <input type="text" id="produtoNome"><br /><br />
-            Categoria: <input type="text" id="produtoCategoria"><br /><br />
-            Quantidade: <input type="text" id="produtoQuantidade"><br /><br />
+        <form id="taskForm">
+            <label for="produtoNome">Produto:</label>
+            <input type="text" id="produtoNome" required><br /><br />
+            
+            <label for="produtoCategoria">Categoria:</label>
+            <input type="text" id="produtoCategoria" required><br /><br />
+            
+            <label for="produtoQuantidade">Quantidade:</label>
+            <input type="text" id="produtoQuantidade" required><br /><br />
+            
             <button type="button" id="inserir">Inserir</button>
-            <button type="button" id="ordenarCategoria">Ordenar por Categoria</button>
+            <button type="button" id="ordenar">Ordenar por Categoria</button>
         </form>
         <div id="mensagemErro"></div>
     </div>
-    <div>
-		<hr/>
+    
+    <div class="produto-lista">
+        <hr />
         <h3>Lista de Compras</h3>
-		<h4>Produto   Categoria   Quantidade</h4>
-        <ul id="listaProdutos"></ul>
-
+        <div class="cabecalho-lista">
+            <h4>Produto</h4>
+            <h4>Categoria</h4>
+            <h4>Quantidade</h4>
+        </div>
+        <ul id="listaProdutos">
+            <!-- Itens serão inseridos aqui dinamicamente pelo JavaScript -->
+        </ul>
     </div>
+
     <script src="./script.js"></script>
 </body>
 </html>

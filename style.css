@@ -83,3 +83,57 @@ h3 {
     margin-bottom: 20px;
     color: #333;
 }
+
+
+/* ... (o restante do seu CSS) ... */
+
+/* ... (o restante do seu CSS) ... */
+
+.produto-lista {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cabecalho-lista {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.cabecalho-lista h4 {
+    flex: 1;
+    padding: 10px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+}
+
+#listaProdutos {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#listaProdutos li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+#listaProdutos li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#listaProdutos li:hover {
+    background-color: #f0f0f0;
+}
+
+/* ... (o restante do seu CSS) ... */
