@@ -137,3 +137,32 @@ h3 {
 }
 
 /* ... (o restante do seu CSS) ... */
+
+/* ... Restante do seu CSS ... */
+
+/* Estilos para os botões de ação */
+.botao-acao {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botao-acao.editar {
+    background-color: #28a745;
+    color: white;
+}
+
+.botao-acao.excluir {
+    background-color: #dc3545;
+    color: white;
+}
+
+.botao-acao:hover {
+    opacity: 0.8;
+}
+
+/* ... Restante do seu CSS ... */
+
